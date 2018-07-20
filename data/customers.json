@@ -1,0 +1,26 @@
+[
+      {
+            "id": 1,
+            "firstName": "ted",
+            "lastName": "james",
+            "gender": "male",
+            "address": "1234 Anywhere St.",
+            "city": " Phoenix ",
+            "state": {
+                "abbreviation": "AZ",
+                "name": "Arizona"
+            }
+      },
+      {
+            "id": 2,
+            "firstName": "Michelle",
+            "lastName": "Thompson",
+            "gender": "female",
+            "address": "345 Cedar Point Ave.",
+            "city": "Encinitas ",
+            "state": {
+                "abbreviation": "CA",
+                "name": "California"
+            }
+      }
+]

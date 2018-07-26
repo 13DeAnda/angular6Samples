@@ -7,7 +7,8 @@ const app_routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/customers' },
   { path: 'customers', loadChildren: 'app/customers/customers.module#CustomersModule' },
   { path: 'about', loadChildren: 'app/about/about.module#AboutModule' },
-  { path: '**', pathMatch: 'full', redirectTo: '/customers' } // catch any unfound routes and redirect to home page
+  { path: 'todo', loadChildren: 'app/toDo/toDo.module#ToDoModule' },
+  { path: '**', pathMatch: 'full', redirectTo: '/customers' }
 ];
 
 @NgModule({
